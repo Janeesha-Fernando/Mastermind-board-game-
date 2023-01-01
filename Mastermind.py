@@ -72,7 +72,7 @@ while (play_another_game == "yes"):
   
         
         #Teminate the game without going to the 8th guess
-        if guessed_peg == "0000":
+        if guess == "0000":
             print("game ended.")
             break
                   
